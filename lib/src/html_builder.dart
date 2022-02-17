@@ -24,7 +24,7 @@ abstract class HTMLBuilder {
     html.write('<model-viewer');
     html.write(' src="${htmlEscape.convert(src)}"');
     html.write(
-        ' style="background-color: rgb(${backgroundColor.red}, ${backgroundColor.green}, ${backgroundColor.blue});"');
+        ' style="background-color: rgb(${backgroundColor.red}, ${backgroundColor.green}, ${backgroundColor.blue});" auto-rotate rotation-per-second="360deg"');
     if (alt != null) {
       html.write(' alt="${htmlEscape.convert(alt)}"');
     }
