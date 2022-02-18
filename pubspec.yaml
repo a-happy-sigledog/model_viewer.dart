@@ -12,7 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
   dogma: ^0.0.1
-  flutter_android: ^0.8.0
   webview_flutter: ^3.0.0
 dev_dependencies:
   flutter_test:
